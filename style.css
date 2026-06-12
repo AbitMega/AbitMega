@@ -1,0 +1,215 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* menu buttons */
+
+.content {
+    display: none;
+    border: 2px solid white;
+    margin: 20px;
+    padding: 15px;
+  }
+  
+/* viewing */
+
+@media (min-width: 1px) {
+    
+    button {
+    font-family: 'VCR', serif;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    margin-bottom: 5px;
+}
+
+#MP {
+    max-width: 40%;
+}
+
+}
+
+    
+@media (min-width: 375px) {
+    
+    button {
+    font-family: 'VCR', serif;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    margin-bottom: 5px;
+}
+
+
+
+}
+
+@media (min-width: 768px) {
+  .content {
+    width: 55%;
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 3px solid white;
+  }
+  
+  .info {
+      width: 60%;
+  }
+  
+  p {
+      font-size: 35px;
+  }
+  
+  h1 {
+      font-size: 60px;
+  }
+  
+  h2 {
+      font-size: 60px;
+  }
+ 
+ button {
+    font-family: 'VCR', serif;
+    font-size: 30px;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    margin-bottom: 5px;
+    
+}
+  
+  span {
+      font-size: 35px;
+  
+  }  
+  
+}
+  
+  
+  
+@media (min-width: 1024px) {
+  .content {
+    width: 40%;
+    font-size: 20px;
+  }
+  p {
+      font-size: 20px;
+  }
+  
+  .info {
+      width: 70%;
+  }
+  
+  #MP {
+      max-width: 30%;
+  }
+  
+}
+
+@media (min-width: 1440px) {
+   h1 {
+       font-size: 50px;
+   }
+   
+   #MP {
+       max-width: 20%;
+   }
+   
+   .content {
+       max-width: 30%;
+   }
+       
+   }
+    
+}
+
+@media (min-width: 2560px) {
+  .content {
+    width: 10%;
+    font-size: 30px;
+  }
+  p {
+      max-width: 30px;
+  }
+  h1 {
+      font-size: 60px;
+  }
+  
+ 
+  
+}
+
+/* containers */
+
+.contbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+}
+
+.pi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* font */
+
+@font-face {
+  font-family: 'VCR';
+  src: url('font/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'VCR', serif;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'VCR', serif;
+  font-weight: 100;
+}
+
+h3 {
+  font-family: 'VCR', serif;
+  font-weight: 100;
+}
+
+p {
+  font-family: 'VCR', serif;
+}
+
+b {
+  font-family: 'VCR', serif;
+}
+
+ins {
+  font-family: 'VCR', serif;
+}
+
+i {
+  font-family: 'VCR', serif;
+}
+
+li {
+    font-family: 'VCR', serif;
+    text-align: left;
+}
+
+span {
+    font-family: 'VCR', serif;
+}
+
+/* image */
+
