@@ -120,6 +120,10 @@ body {
   #MP {
       max-width: 10%;
   }
+
+    #slots {
+        font-size: 20px;
+    }
   
   
 }
