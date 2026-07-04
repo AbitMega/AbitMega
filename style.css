@@ -140,6 +140,10 @@ body {
    p {
        font-size: 10px;
    }
+
+    #slots {
+        font-size: 20px;
+    }
    
    button {
     font-family: 'VCR', serif;
